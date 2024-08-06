@@ -1,0 +1,62 @@
+<div class="container">
+  <form class="bg-body-secondary" (submit)="register($event)">
+    <h1 class="text-center display-4 mb-4">Registeration Form</h1>
+    <div class="mb-5 row">
+      <label for="name" class="form-label fs-5 col-12 col-md-3"
+        >Your Name</label
+      >
+      <input
+        type="text"
+        (input)="name($event)"
+        maxlength="20"
+        minlength="3"
+        class="form-control input col-12 col-md-9"
+        id="username"
+      />
+    </div>
+    <div class="mb-5 row">
+      <label for="username" class="form-label fs-5 col-12 col-md-3"
+        >User Name</label
+      >
+      <input
+        type="text"
+        (input)="user($event)"
+        maxlength="20"
+        minlength="3"
+        class="form-control input col-12 col-md-9"
+        id="username"
+      />
+      <p *ngIf="nameWarning" class="text-danger mt-1 lead">
+        Enter Valid User Name
+      </p>
+    </div>
+    <div class="mb-5 row">
+      <label for="password" class="form-label fs-5 col-12 col-md-3"
+        >Password</label
+      >
+      <input
+        [type]="passwordType"
+        (input)="Pass($event)"
+        class="form-control input col-12 col-md-9"
+        id="password"
+      />
+      <p *ngIf="passwordWarning" class="text-danger mt-1 lead">
+        Enter Correct Password
+      </p>
+    </div>
+    <div class="mb-5 form-check">
+      <input
+        (click)="passwordShow($event)"
+        type="checkbox"
+        class="form-check-input"
+        id="show"
+      />
+      <label class="form-check-label ms-2 fs-5" for="show">Show Password</label>
+    </div>
+    <div class="row">
+      <button type="submit" class="btn btn-outline-dark fs-5 ms-3">
+        Register
+      </button>
+    </div>
+  </form>
+</div>

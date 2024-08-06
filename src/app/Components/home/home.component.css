@@ -1,0 +1,8 @@
+button {
+  width: fit-content !important;
+}
+.custom {
+  width: 85%;
+  margin: 0 auto;
+  line-height: 1.6;
+}

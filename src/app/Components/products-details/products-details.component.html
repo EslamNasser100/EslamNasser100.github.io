@@ -1,0 +1,18 @@
+<div>
+  <img [src]="imageSrc" alt="" />
+  <h2 class="text-center text-capitalize">{{ title }}</h2>
+  <p class="text-center bg-danger-subtle rounded p-2 mt-3 text-capitalize">
+    {{ description }}
+  </p>
+  <div class="justify-content-between m-0 d-flex">
+    <button (click)="delet()" class="btn text-capitalize btn-danger w-25">
+      delet
+    </button>
+    <button (click)="add()" class="btn text-capitalize btn-success w-25">
+      add to cart
+    </button>
+    <button (click)="edit()" class="btn text-capitalize btn-warning w-25">
+      edit
+    </button>
+  </div>
+</div>

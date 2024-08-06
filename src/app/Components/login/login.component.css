@@ -1,0 +1,16 @@
+form {
+  padding: 40px;
+  border-radius: 10px;
+}
+.container {
+  width: 80%;
+  max-width: 825px;
+  margin: 30px auto;
+}
+button {
+  width: fit-content;
+}
+.input {
+  width: 425px;
+  margin: 0 auto;
+}

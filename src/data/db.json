@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "main product",
+      "src": "assets/6.jpeg",
+      "description": "best selling snikers"
+    },
+    {
+      "id": 2,
+      "title": "nike snikers 1",
+      "src": "assets/1.jpeg",
+      "description": "blue & white snikers"
+    },
+    {
+      "id": 3,
+      "title": "nike snikers 2",
+      "src": "assets/2.jpeg",
+      "description": "black & white snikers"
+    },
+    {
+      "id": 4,
+      "title": "nike snikers 3",
+      "src": "assets/3.jpeg",
+      "description": "purple snikers"
+    },
+    {
+      "id": "5",
+      "title": "green snikers",
+      "src": "assets/4.jpeg",
+      "description": "the good one ."
+    }
+  ],
+  "cart": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "user": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Eslam Nasser",
+      "user": "eslam",
+      "password": "eslam1234"
+    },
+    {
+      "id": 3,
+      "name": "mohammed ahmed",
+      "user": "mohammed",
+      "password": "mohammed"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<form class="p-3" action="">
+  <div class="row mb-3">
+    <label class="col-2 form-label" for="id">id</label>
+    <div class="col-10">
+      <input
+        [(ngModel)]="id1"
+        name="id"
+        value=""
+        class="form-control"
+        type="text"
+        placeholder="id"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label class="col-2 form-label" for="title">title</label>
+    <div class="col-10">
+      <input
+        [(ngModel)]="title"
+        name="title"
+        value=""
+        class="form-control"
+        type="text"
+        placeholder="title"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label class="col-2 form-label" for="imageSorce">imageSorce</label>
+    <div class="col-10">
+      <input
+        [(ngModel)]="imageSorce"
+        name="imageSorce"
+        value=""
+        class="form-control"
+        type="text"
+        placeholder="imageSorce"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label class="col-2 form-label" for="description">description</label>
+    <div class="col-10">
+      <input
+        [(ngModel)]="description"
+        name="description"
+        value=""
+        class="form-control"
+        type="text"
+        placeholder="description"
+      />
+    </div>
+  </div>
+  <div class="row">
+    <button (click)="confirm()" class="btn btn-outline-dark w-25 mx-auto mb-4">
+      Confirm
+    </button>
+  </div>
+</form>

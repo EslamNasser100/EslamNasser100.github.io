@@ -1,0 +1,25 @@
+svg {
+  max-width: 20px;
+  max-height: 20px;
+}
+div {
+  max-width: 90px;
+}
+#pluse:hover {
+  background-color: #a6ff96;
+  border-radius: 10px;
+}
+#munes:hover {
+  background-color: #f8ff95;
+  border-radius: 10px;
+}
+#delete:hover {
+  background-color: #fba1b7;
+  border-radius: 10px;
+}
+
+/* #pluse:active,
+#munes:active,
+#delete:active {
+  cursor: pointer;
+} */

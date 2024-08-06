@@ -1,0 +1,12 @@
+<div
+  *ngFor="let product of products"
+  class="card d-inline-block col-md-6 col-12 mb-3"
+>
+  <img [src]="product.src" class="card-img-top" [alt]="product.title" />
+  <div class="card-body d-flex justify-content-between align-content-end">
+    <p class="card-text">{{ product.title }}</p>
+    <button (click)="details(product.id)" class="btn btn-primary">
+      Details
+    </button>
+  </div>
+</div>
